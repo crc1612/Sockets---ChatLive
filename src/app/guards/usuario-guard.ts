@@ -5,7 +5,7 @@ import { WebsocketService } from '../services/websocket.service';
 @Injectable({
   providedIn: 'root'
 })
-export class UsuarioGuardService implements CanActivate {
+export class UsuarioGuard implements CanActivate {
 
   constructor(public wsService: WebsocketService,
               private router: Router) { }
